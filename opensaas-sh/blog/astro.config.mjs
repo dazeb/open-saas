@@ -43,11 +43,10 @@ export default defineConfig({
           "https://github.com/wasp-lang/open-saas/edit/main/opensaas-sh/blog",
       },
       components: {
-        SiteTitle: "./src/components/MyHeader.astro",
-        // We customized ThemeSelect to include a "Copy URL for LLMs" button
-        ThemeSelect: "./src/components/MyRightNavBarItems.astro",
+        Header: "./src/components/Header.astro",
+        SiteTitle: "./src/components/SiteTitle.astro",
         Head: "./src/components/HeadWithOGImage.astro",
-        PageTitle: "./src/components/TitleWithBannerImage.astro",
+        PageTitle: "./src/components/PageTitleWithBannerImage.astro",
         PageFrame: "./src/components/PageFrameWithCookieConsent.astro",
       },
       social: [
